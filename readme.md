@@ -10,8 +10,9 @@
 ## How to run
 
 - From Git run command: git clone https://github.com/htn/vl57.git
-- composer update
-- Create database name vl57 and add to .env file
-- php artisan migrate
-- npm install
-- php artisan serve
+- cd vl57 (from console)
+- Create database name vl57 and add to .env file (if not exist .evn => run command copy .env.example .evn)
+- composer update (from console)
+- php artisan migrate (from console)
+- npm install (from console)
+- php artisan serve (from console)
