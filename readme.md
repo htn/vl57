@@ -11,8 +11,9 @@
 
 - From Git run command: git clone https://github.com/htn/vl57.git
 - cd vl57 (from console)
-- Create database name vl57 and add to .env file (if not exist .evn => run command copy .env.example .evn)
+- Create database name vl57 and add to .env file (if not exist .evn => run command "copy .env.example .evn" and "php artisan key:generate" to create key)
 - composer update (from console)
 - php artisan migrate (from console)
 - npm install (from console)
 - php artisan serve (from console)
+- localhost:8000/vuejscrud
